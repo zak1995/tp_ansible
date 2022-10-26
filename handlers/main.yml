@@ -1,0 +1,6 @@
+---
+# handlers file for tomcat
+- name: reload_tomcat
+  systemd:
+   name: tomcat
+   state: reloaded
